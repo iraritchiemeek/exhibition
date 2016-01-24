@@ -13,3 +13,8 @@ LandingPage.prototype.textLine = function(id, text) {
 LandingPage.prototype.verticalText = function(text) {
 	$('#container').append('<div class="vertical_text">' + text + '</div>')
 };
+
+LandingPage.prototype.appendImage = function(url) {
+	$('#container').append('<div id="home_image"></div>')
+	$('#home_image').css({'backgroundImage':'url(' + url + ')'})
+};

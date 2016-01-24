@@ -8,4 +8,5 @@ $(document).ready(function () {
 	landingPage.textLine('subtitle', 'spring/summer1996')
 	landingPage.verticalText('EXHIBITION')
 	landingPage.verticalText('EXHIBITION')
+	landingPage.appendImage('imgs/hugh_mundell.jpg')
 })
