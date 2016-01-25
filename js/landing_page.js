@@ -2,8 +2,8 @@ function LandingPage () {
 	
 }
 
-LandingPage.prototype.textWrapper = function() {
-	$('#container').append('<div id="landing_text_wrapper"></div>')
+LandingPage.prototype.appendDiv = function(id) {
+	$('#container').append('<div id="' + id + '"></div>')
 };
 
 LandingPage.prototype.textLine = function(id, text) {
@@ -17,4 +17,8 @@ LandingPage.prototype.verticalText = function(text) {
 LandingPage.prototype.appendImage = function(url) {
 	$('#container').append('<div id="home_image"></div>')
 	$('#home_image').css({'backgroundImage':'url(' + url + ')'})
+};
+
+LandingPage.prototype.menuItem = function(text, url) {
+	$('#container').append()
 };

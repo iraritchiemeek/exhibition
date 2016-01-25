@@ -21,7 +21,7 @@ html, body, #container, #content{
 }
 
 #home_image {
-	opacity: 0.5;
+	opacity: 0.3;
 	position: absolute;
 	left: 50%;
 	background-repeat: no-repeat;
@@ -30,8 +30,8 @@ html, body, #container, #content{
 }
 
 .vertical_text {
-	opacity: 0.2;
-	color: #C4C4B0;
+	color: transparent;
+    text-shadow: 0 0 8px rgba(0,0,0,0.2);
 	font-family: 'Raleway';
 	font-weight: 700;
 	position:absolute;
