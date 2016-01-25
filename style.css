@@ -50,3 +50,13 @@ html, body, #container, #content{
 .vertical_text:nth-child(even) {
     left:51%;
 }
+
+#menu {
+	text-decoration: underline;
+}
+
+#fullscreen_image {
+	width: 100%;
+	height: 100%;
+	background-size: 100%;
+}
